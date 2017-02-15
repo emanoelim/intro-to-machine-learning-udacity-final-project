@@ -27,7 +27,7 @@ Supposing that a Person 1 sends a lot of e-mails (100 e-mails). 50 of these e-ma
   
 This way, a new feature was created, called “percentual_of_messages_sent_to_poi”, that uses “from_this_person_to_poi” and “to_messages” to compute the percentual of all sent messages that was sent to a POI. The same way, was created a feature called “percentual_of_messages_received_from_poi”, that uses “from_poi_to_this_person” and “from_messages” to compute the percentual of all receveid messages that was sent from a POI.
 
-SelectKBest from scikit-learn was used to show the features scores. The following scores was obteined. Is possible to see that the new features were more relevant than “from_this_person_to_poi”, “to_messages” and “from_messages” used separately.
+SelectKBest from scikit-learn was used to show the features scores. The following scores was obteined. It's possible to see that the new features were more relevant than “from_this_person_to_poi”, “to_messages” and “from_messages” used separately.
 - exercised_stock_options: 24.250472354526192;
 - bonus:  20.25718499812395;
 - salary: 17.717873579243289;
