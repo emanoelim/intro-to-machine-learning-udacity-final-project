@@ -169,7 +169,7 @@ for k in range (1, int(len(features_list) / 2)): # Try sets of 1 - number_of_fea
 order_clf_list = sorted(clf_list, key=itemgetter(0, 1)) # order by f1-score and accuracy
 clf = order_clf_list[len(order_clf_list) - 1][4]
 
-print '\n\nClf: ', order_clf_list[len(order_clf_list) - 1][4]
+print '\n\nClf: ', clf
 
 number_of_features = order_clf_list[len(order_clf_list) - 1][2]
 print '\n\nNumber of features: ', number_of_features
